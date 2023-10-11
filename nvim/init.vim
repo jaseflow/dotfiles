@@ -32,19 +32,10 @@ Plug 'preservim/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'mattn/emmet-vim'
-Plug 'posva/vim-vue'
 Plug 'pangloss/vim-javascript'
 Plug 'MaxMEllon/vim-jsx-pretty'
 Plug 'peitalin/vim-jsx-typescript'
-Plug 'junegunn/vim-peekaboo'
 Plug 'junegunn/goyo.vim'
-Plug 'lalitmee/cobalt2.nvim'
-Plug 'rafi/awesome-vim-colorschemes'
-Plug 'cespare/vim-toml'
-Plug 'eliba2/vim-node-inspect'
-Plug 'jxnblk/vim-mdx-js'
-Plug 'wuelnerdotexe/vim-astro'
-Plug 'wuelnerdotexe/vim-enfocado'
 Plug 'prisma/vim-prisma'
 call plug#end()
 
@@ -86,7 +77,7 @@ set laststatus=2
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tablinefnamemod = ':t'
-let g:airline_theme='enfocado'
+let g:airline_theme='gruvbox'
 let g:airline#extensions#nvimlsp#enabled=0
 
 let g:user_emmet_mode='i'
